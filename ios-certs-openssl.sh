@@ -64,4 +64,3 @@ case $DEVDIST in
     ;;
 esac
 
-rm *.cer *.csr *.key *.pem
