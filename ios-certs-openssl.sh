@@ -13,7 +13,7 @@ while true; do
     DEVDIST="dev"
   fi
 
-  if [[ $DEVDIST -ne "dev" || $DEVDIST -ne "dist" ]]; then
+  if [[ "$DEVDIST" != "dev" && "$DEVDIST" != "dist" ]]; then
     echo "Incorrect input, only 'dev' or 'dist' allowed. Try again!"
     continue
   else
